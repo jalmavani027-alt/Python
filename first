@@ -1,0 +1,80 @@
+# This is my first python project from basics
+# From onwards i'm starting my python journey 
+
+
+print("Hello World")
+
+
+# If thier is multiline paragraph then we can use triple quotes to print it in python
+print('''Baa baa black sheep, have you any wool? Yes sir, yes sir, three bags full! One for the master, one for the dame, And one for the little boy who lives down the lane.
+Thank you said the master,
+Thank you said the dame
+      
+And thank you said the little boy who lived down the lane.
+Baa baa black sheep, have you any wool? Yes sir, yes sir, three bags full! One for the master, one for the dame, And one for the little girl who lives down the lane.
+
+Thank you said the master,
+Thank you said the dame
+And thank you said the little girl who lived down the lane.''') 
+
+
+# Now we take just tour of basics of variables
+
+# rules for variables
+# 1. Variables must start with a letter or underscore
+# 2. Variables cannot start with a number
+# 3. Variables can only contain alphanumeric characters and underscores
+# 4. Variables are case-sensitive
+# 5. Variables cannot be reserved keywords
+
+a = "code"
+print(a)        # output :- code
+
+b = "code is stairs of success"
+print("What is your slogan for coding journey :" , b) # by using comma , we print and put multiply things in print function 
+
+g = 10
+h = 10
+print(g+h) # You can also use operators like this way
+
+e = 10
+p = 80
+print(e*p)
+
+k = 10
+t = 5
+print("Is value of k is smaller then t :" , k<t)
+
+a = 10.06
+print(type(a))
+
+
+#---------------------------------------------------------------------------------------------------
+
+# This all are basic mathematics operators in python
+print(1+5)
+print(1-5)
+print(1*5)
+print(1/5)
+
+
+#if we want to print the squaring value of the number then we use the double asterik sign(**) in python
+print(5**2)         #5*5 = 25
+
+
+#Lets find out others operators 
+print(5%2)    #This is modulus operator which gives the remainder of the division 
+print(5//2)   #This is floor division operator which gives the quotient of the division
+print(5**3)   #This is exponent operator which gives the power of the number
+
+
+# >,<,<=,>=,==,!= this are comparison operators which gives comparison between two given data entry
+print(5>2)         #True
+print(5<2)         #False
+print(10==5)
+print(10!=4)
+print(5>=7)
+print(10<=9)
+
+
+
